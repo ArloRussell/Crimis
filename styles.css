@@ -10,8 +10,8 @@ html, body{
     background-color: red;
     background-blend-mode:lighten;
     color: black;
-    -webkit-text-stroke: 1px darkred;
-    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px rgb(0, 47, 0);
+    -webkit-text-fill-color: rgb(174, 241, 174);
 }
 
 .header h1{
@@ -25,4 +25,8 @@ html, body{
 #video{
     width: 75%;
     max-width: 560px;
+}
+
+#text-bg{
+    background-color: rgba(221, 39, 39, 0.5);
 }
